@@ -5,10 +5,12 @@ keywords:
 
 # Стартовые точки поиска
 sources:
-  - https://www.deutsches-stiftungszentrum.de/stiftungen
+  - https://www.deutsches-stiftungszentrum.de/foerderung/ausschreibungen
   - https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio
-  - https://www.stifterverband.org/foerderungen
-  - https://www.bosch-stiftung.de/de/foerderung
+  - https://www.dfg.de/de/service/presse/pressemitteilungen
+  - https://www.bmbf.de/bmbf/shareddocs/bekanntmachungen/de/bekanntmachungen.html
+  - https://www.stiftung-altersfragen.de/foerderung.html
+  - https://www.bosch-stiftung.de/de/aktuelle-ausschreibungen
 
 # Список исключений (чтобы не собирать мусор)
 blocklist: ["impressum", "datenschutz", "privacy", "legal", "jobs", "careers", "newsletter"]
