@@ -1,0 +1,19 @@
+name: NAR Weekly Scout
+on:
+  workflow_dispatch: # Позволяет запускать вручную кнопку
+  schedule:
+    - cron: '0 9 * * 1' # Запуск каждый понедельник в 9 утра
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 pyyaml
+      - name: Run Scout
+        run: python nar_agent.py
