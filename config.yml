@@ -1,0 +1,14 @@
+# Ключевые слова для НАР
+keywords:
+  core: ["aging", "gerontology", "alzheimer", "dementia", "altern", "gerontologie", "pflege", "senioren"]
+  broad: ["social transformation", "civil society", "inclusion", "loneliness", "einsamkeit", "digital participation", "demographic change", "daseinsvorsorge", "quartiersentwicklung"]
+
+# Стартовые точки поиска
+sources:
+  - https://www.deutsches-stiftungszentrum.de/stiftungen
+  - https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio
+  - https://www.stifterverband.org/foerderungen
+  - https://www.bosch-stiftung.de/de/foerderung
+
+# Список исключений (чтобы не собирать мусор)
+blocklist: ["impressum", "datenschutz", "privacy", "legal", "jobs", "careers", "newsletter"]
